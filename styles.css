@@ -1,0 +1,31 @@
+/* Dark Mode Styling for Streamlit */
+body, [data-testid="stAppViewContainer"] {
+    background-color: #0E1117;
+    color: #D1D5DB;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    color: #FFFFFF;
+}
+
+div.stButton > button {
+    background-color: #1E90FF;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+div.stButton > button:hover {
+    background-color: #3BA3FF;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #1C1E2E;
+}
+
+.stMetric {
+    background-color: #1C1E2E !important;
+    border-radius: 10px;
+    padding: 10px;
+}
